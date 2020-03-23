@@ -22,10 +22,12 @@
             <div class="form-group">
                 <a onclick="ageChecker()" type="button" class="btn btn-success">Verify</a>
             </div>
-            <div class="alert alert-success">
-                <strong>Success!</strong> Indicates a successful or positive action.
+
+            <div class="alert alert-success ml-2">
+                <strong>Success!</strong> Task finished.
             </div>
         </div>
+
         <!-- TASK 2 -->
         <div class="container text-center border shadow mt-2 col-6">
             <h4 class="text-center text-primary">Task 2 </h4>
@@ -38,9 +40,12 @@
         <div class="container text-center border shadow mt-3 col-6">
             <h4 class="text-center text-primary">Task 3 ToDo List</h4>
             <div class="form-group">
-                <input id="task"><button id="add">Add</button>
+                <input id="task"><button class="btn btn-sm btn-warning" id="add">Add</button>
                 <hr>
-                <div class="container border shadow mt-3 col-4 text-left " id="todos"></div>
+                <div class="container border shadow mt-3 col-6 text-left " id="todos"></div>
+            </div>
+            <div class="alert alert-warning ml-2">
+                <strong>Warning!</strong> Prompt Input has to be fixed.
             </div>
         </div>
 
@@ -50,14 +55,21 @@
             <div class="form-group">
                 <a onclick="biggestNumber()" type="button" class="btn btn-primary">Verify</a>
             </div>
+            <div class="alert alert-success ml-2">
+                <strong>Success!</strong> Task finished.
+            </div>
         </div>
         <!-- TASK 5 -->
         <div class="container text-center border shadow mt-2 col-3">
-            <h4 class="text-center text-primary">Task 5 </h4>
-            <div class="form-group">
-                <a onclick="notReady()" type="button" class="btn btn-info">Verify</a>
+            <h4 class="text-center text-primary">Task 5 Random Number</h4>
+            <div class="form-group text-center">
+                <div class="container border shadow mt-3 col-6 text-center " id="numberArray"></div>
+                <a onclick="btnClick()" type="button" class="btn btn-success mt-2">Multiply with 2</a>
+                <div class="container border shadow mt-3 col-6 text-center " id="randomNumber"></div>
             </div>
-            <div class="container border shadow mt-3 col-3 text-left " id="randomNumber"></div>
+            <div class="alert alert-success ml-2">
+                <strong>Success!</strong> Task finished.
+            </div>
         </div>
 
         <!-- TASK 6 -->
